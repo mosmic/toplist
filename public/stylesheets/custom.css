@@ -13,7 +13,7 @@ body {
 }
 
 #header img {
-  	padding: 1em;
+  	padding: 0em;
   	/*background: #fff;*/
 	border: none;
 }
@@ -127,6 +127,6 @@ a.signup_button {
 /*logo*/
 
 .logo_style {
-	width: 200px;
+	width: 300px;
 	background: white;
 }
