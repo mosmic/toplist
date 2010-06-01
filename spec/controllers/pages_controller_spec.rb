@@ -4,7 +4,7 @@ describe PagesController do
   integrate_views
   
   before(:each) do
-    @base_title = "topList"
+    @base_title = "the List Page"
   end
 
   describe "GET 'home'" do

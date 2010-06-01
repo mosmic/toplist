@@ -3,7 +3,7 @@ module ApplicationHelper
 
   # Return a title on a per-page basis.
   def title
-    base_title = "topList"
+    base_title = "the List Page"
     if @title.nil?
       base_title
     else
