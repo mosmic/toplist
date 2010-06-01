@@ -52,6 +52,7 @@ a:hover {
 
 .navigation {
   	background-color: white;
+	border: 2px solid black;
 	font-family:'HelveticaRegular',Helvetica,Arial,sans-serif;
   	padding: 0 0.7em;
   	white-space: nowrap;
@@ -105,6 +106,7 @@ a.signup_button {
 
 #footer .navigation {
   	float: none;
+	border: none;
 }
 
 #footer .navigation a {
