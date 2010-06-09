@@ -7,13 +7,13 @@ module ApplicationHelper
     if @title.nil?
       base_title
     else
-      "#{base_title} | #{@title}"
+      "#{base_title} | #{h(@title)}"
     end
   end
   
 
   def logo
-     logo = image_tag("logo.png", :alt => "topList", :class => "logo_style")
+     logo = image_tag("logo.png", :alt => "the List Page", :class => "logo_style")
   end
   
 end

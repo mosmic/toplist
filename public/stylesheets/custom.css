@@ -21,7 +21,7 @@ body {
 #content {
   	margin-top: 1em;
   	font-family:'HelveticaRegular',Helvetica,Arial,sans-serif;
-  	font-size: 120%;
+  	font-size: 100%;
   	padding: 20px;
   	background: #fff;
   	border: 3px solid #000;
@@ -116,6 +116,31 @@ a.signup_button {
 #footer .navigation li a:hover {
 	color: #90186e;
 }
+
+/* User show page */
+
+table.profile {
+  	width: 100%;
+  	margin-bottom: 0;
+}
+
+td.main {
+  	width: 70%;
+  	padding: 1em;
+}
+
+td.sidebar {
+  	width: 30%;
+  	padding: 1em;
+  	vertical-align: top;
+  	background: #e8e8e8;
+}
+
+.profile img.gravatar {
+  	border: 1px solid #999;
+  	margin-bottom: -15px;
+}
+
 
 /* Round corners */
 
